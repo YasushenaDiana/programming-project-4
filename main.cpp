@@ -4,11 +4,9 @@
 #include <thread>
 #include <string>
 #include <vector>
+#include <cstdlib>
 #include "data.h"
 #include "actions.h"
-#if defined(_MSVC_LANG)
-#include <cstdlib>
-#endif
 
 using namespace std;
 
